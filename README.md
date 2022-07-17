@@ -1,6 +1,6 @@
 # Photo Archives
 
-Simple web with photo archives webs links.
+Simple web with links for my photo works.
 
 <img src="./Screen Shot 2022-07-16 at 23.13.17.png">
 
