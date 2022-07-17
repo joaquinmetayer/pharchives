@@ -18,6 +18,10 @@ body {
     width: 25%;
     object-fit:contain;
 }
+#me{
+    filter: grayscale(100);
+    width: 50%;
+}
 #gallery {
     display: flex;
     flex-wrap: wrap;
