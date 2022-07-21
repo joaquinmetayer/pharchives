@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 5px;
+    font-size: 1.1em;
 }
 #description a{
     text-decoration: none;
@@ -15,18 +16,16 @@ body {
     background-color: #000;
 }
 #description{
-    width: 25%;
+    width: 20%;
     object-fit:contain;
 }
 #me{
     filter: grayscale(100);
-    width: 50%;
 }
 #gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 #gallery img {
     width: 100%;
@@ -34,17 +33,25 @@ body {
 }
 #gallery a {
     width: 40%;
-    object-fit:contain;
 }
 #gallery a :hover{
     filter: grayscale(100);
 }
 @media (max-width: 1000px) {
     #gallery a {
+        width: 50%;
+        object-fit:contain;
+    }
+    #description{
+      width: 50%;
+    }
+}
+@media (max-width: 800px) {
+    #gallery a {
         width: 100%;
         object-fit:contain;
     }
     #description{
       width: 100%;
-  }
+    }
 }
